@@ -1,7 +1,7 @@
 import {HiMenu} from 'react-icons/hi'
-import images from '../assets/images';
 import { Nav, NavMobile } from '../components';
 import { useEffect, useState } from 'react';
+import { images } from '../assets';
 
 const Header = () => {
   const [bg, setBg] = useState(false)
@@ -19,7 +19,7 @@ const Header = () => {
 
   return (
     <header className={`${bg ? 'bg-[#534686] shadow-md py-6' : ' py-4'}
- w-full fixed transition-all duration-300 `} >
+ w-full fixed transition-all duration-300 z-10 `} >
       <div className="container mx-auto w-full">
         <div className='flex items-center justify-between w-full'>
 

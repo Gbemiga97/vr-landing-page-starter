@@ -1,11 +1,11 @@
-import images from "../assets/images";
+import { images } from "../assets";
 import { Users } from "../components";
 
 
 const Banner = () => {
   return (
     <section className="min-h-[600px] pt-24 text-center relative lg:pt-48 lg:pb-0
-    lg:text-left -z-20
+    lg:text-left before:-z-20
      before:w-full before:h-[40rem]
      before:bg-circle before:absolute before:bg-no-repeat before:left-0 
      before:top-0">

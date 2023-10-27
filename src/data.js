@@ -2,6 +2,7 @@
 import Avatar1 from '../src/assets/img/avt1.png';
 import Avatar2 from '../src/assets/img/avt2.png';
 import Avatar3 from '../src/assets/img/avt3.png';
+import { images } from './assets';
 
 export const slider = [
   {
@@ -47,3 +48,28 @@ export const slider = [
     email: 'frank.collins@gmail.com',
   },
 ];
+
+
+
+export const headsetData = [
+  {
+    img: images.Headset1,
+    title: 'Metaverse',
+    description: 'A Network of 3D virtual worlds focused on social connection. '
+  },
+  {
+    img: images.Headset2,
+    title: 'AIoT',
+    description: 'AI and IoT are both emerging innovative technologies with a lot of potentials. '
+  },
+  {
+    img: images.Headset3,
+    title: 'HoloLens',
+    description: 'HoloLens display information, blend with the real world , or even simulate a virtual world. '
+  },
+  {
+    img: images.Headset4,
+    title: 'TPCASTT',
+    description: 'Method is great to start students reading and inferring with little assistance from the instructor'
+  },
+]
