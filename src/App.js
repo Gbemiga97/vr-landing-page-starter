@@ -1,7 +1,13 @@
-import React from 'react';
+import { Banner, Header } from "./sections";
+
 
 const App = () => {
-  return <div>App</div>;
-};
+  return (
+    <div className="overflow-hidden ">
+      <Header />
+      <Banner />
+    </div>
+  ) 
+}
 
 export default App;
