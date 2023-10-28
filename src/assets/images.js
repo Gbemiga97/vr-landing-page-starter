@@ -10,8 +10,11 @@ import Headset1 from './img/headset-1.png'
 import Headset2 from './img/headset-2.png'
 import Headset3 from './img/headset-3.png'
 import Headset4 from './img/headset-4.png'
-
-
+import Value1 from './img/emojione_victory-hand.png'
+import Value2 from './img/Vector.png'
+import Value3 from './img/Group 40.png'
+import Value4 from './img/twemoji_light-bulb.png'
+import love from './img/Group 12.png'
 
 
 
@@ -28,4 +31,9 @@ export default {
     Headset2,
     Headset3,
     Headset4,
+    Value1,
+    Value2,
+    Value3,
+    Value4,
+    love,
 }

@@ -12,9 +12,11 @@ const Video = () => {
   return (
     <div>
       
-        <div className="bg-[#534686] border-fuchsia-400 gap-6 lg:gap-0 text-center    border    
+        <div className="container mx-auto bg-[#534686] border-fuchsia-400 gap-6 lg:gap-0 text-center    border    
          py-6 lg:pl-[4rem]  md:mr-[14rem] rounded-tr-[4rem] flex flex-col justify-center items-center lg:flex-row lg:justify-between lg:text-start">
-          <h3 className="text-2xl font-semibold mb-8 lg:mb-0">
+          <h3 
+          data-aos='fade-right'
+          className="text-2xl font-semibold mb-8 lg:mb-0">
           Awesome experiences with <br />
           virtual reality world
           </h3>
@@ -28,7 +30,9 @@ const Video = () => {
           
           />
 
-          <div className="bg-videoBg bg-no-repeat bg-cover -order-1 lg:order-1
+          <div 
+          data-aos="fade-left"
+          className="bg-videoBg bg-no-repeat bg-cover -order-1 lg:order-1
           w-[270px] h-[180px] flex items-center justify-center lg:mr-6">
             <button
             onClick={() => setIsOpen(!isOpen)}

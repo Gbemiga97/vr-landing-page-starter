@@ -55,21 +55,45 @@ export const headsetData = [
   {
     img: images.Headset1,
     title: 'Metaverse',
-    description: 'A Network of 3D virtual worlds focused on social connection. '
+    description: 'A Network of 3D virtual worlds focused on social connection. ',
+    delay: '1000'
   },
   {
     img: images.Headset2,
     title: 'AIoT',
-    description: 'AI and IoT are both emerging innovative technologies with a lot of potentials. '
+    description: 'AI and IoT are both emerging innovative technologies with a lot of potentials. ',
+    delay: '1300'
   },
   {
     img: images.Headset3,
     title: 'HoloLens',
-    description: 'HoloLens display information, blend with the real world , or even simulate a virtual world. '
+    description: 'HoloLens display information, blend with the real world , or even simulate a virtual world. ',
+    delay: '1600'
   },
   {
     img: images.Headset4,
     title: 'TPCASTT',
-    description: 'Method is great to start students reading and inferring with little assistance from the instructor'
+    description: 'Method is great to start students reading and inferring with little assistance from the instructor',
+    delay: '1900'
+  },
+]
+
+
+export const valuesData = [
+  {
+    value: images.Value1,
+    text: 'Be Sincere'
+  },
+  {
+    value: images.Value2,
+    text: 'Stronger together'
+  },
+  {
+    value: images.Value3,
+    text: 'Keep it simple'
+  },
+  {
+    value: images.Value4,
+    text: 'Take intelligent risks'
   },
 ]

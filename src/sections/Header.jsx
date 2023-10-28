@@ -19,7 +19,8 @@ const Header = () => {
 
   return (
     <header className={`${bg ? 'bg-[#534686] shadow-md py-6' : ' py-4'}
- w-full fixed transition-all duration-300 z-10 `} >
+ w-full fixed transition-all duration-300 z-10 `} data-aos='fade-down'
+ data-aos-duration='2000' data-aos-delay='900' >
       <div className="container mx-auto w-full">
         <div className='flex items-center justify-between w-full'>
 

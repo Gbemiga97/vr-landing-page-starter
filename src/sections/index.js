@@ -4,7 +4,7 @@ import Testimonial from "./Testimonial";
 import Experience from "./Experience";
 import Headsets from "./Headsets";
 import Explore from "./Explore";
-
+import Values from "./Values";
 
 export {
     Header,
@@ -12,6 +12,7 @@ export {
     Testimonial,
     Experience,
     Headsets,
+    Values,
     Explore,
 }
 
